@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-04-13 08:55:43.585 UTC</timestamp>
+  <md5sum>90cd46997bc8cb527e7d31dee72ef2eb</md5sum>
+  <fileName>Credential id=58420d2f-9f99-431c-b2a9-f2bc3820c5af name=ctproject4/******</fileName>
+  <usages>
+    <entry>
+      <string>project1_bmi</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>project1</string>
+      <ranges>1-15</ranges>
+    </entry>
+    <entry>
+      <string>project_bmi</string>
+      <ranges>1-12</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

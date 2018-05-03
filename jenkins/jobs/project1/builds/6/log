@@ -1,0 +1,101 @@
+Started by user [8mha:////4DV1sTA+WhgIv0UkDxfwVtEuhHytMhuT5dermWrHK8nEAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZ+/dLi1CL9xIyS1OKMxNxEADhuzyDEAAAA[0mahtesham
+Building in workspace /var/lib/jenkins/workspace/project1
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ctproject4/bmi3.git # timeout=10
+Fetching upstream changes from https://github.com/ctproject4/bmi3.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ctproject4/bmi3.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f72ee5d5473f1cdd5a8b2d1c785ce8539b6199a8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f72ee5d5473f1cdd5a8b2d1c785ce8539b6199a8
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk f72ee5d5473f1cdd5a8b2d1c785ce8539b6199a8 # timeout=10
+[project1] $ mvn clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building com.citiustech Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4NCn9iuPDbooMYjA9ut4WXe5Anzl+BUYuxBd+Pi7hapgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ com.citiustech ---
+[INFO] Deleting /var/lib/jenkins/workspace/project1/target
+[INFO] 
+[8mha:////4NCn9iuPDbooMYjA9ut4WXe5Anzl+BUYuxBd+Pi7hapgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ com.citiustech ---
+[debug] execute contextualize
+[8mha:////4KpTBNSGqOBgkr9pl+Vsz72QsZtHGtNhn7mjDioAanD6AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/project1/src/main/resources
+[INFO] 
+[8mha:////4NCn9iuPDbooMYjA9ut4WXe5Anzl+BUYuxBd+Pi7hapgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ com.citiustech ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4NCn9iuPDbooMYjA9ut4WXe5Anzl+BUYuxBd+Pi7hapgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ com.citiustech ---
+[debug] execute contextualize
+[8mha:////4KpTBNSGqOBgkr9pl+Vsz72QsZtHGtNhn7mjDioAanD6AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/project1/src/test/resources
+[INFO] 
+[8mha:////4NCn9iuPDbooMYjA9ut4WXe5Anzl+BUYuxBd+Pi7hapgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ com.citiustech ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4NCn9iuPDbooMYjA9ut4WXe5Anzl+BUYuxBd+Pi7hapgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ com.citiustech ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/project1/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4NCn9iuPDbooMYjA9ut4WXe5Anzl+BUYuxBd+Pi7hapgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ com.citiustech ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [com.citiustech] in [/var/lib/jenkins/workspace/project1/target/com.bmi]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/project1/src/main/webapp]
+[INFO] Webapp assembled in [44 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/project1/target/com.bmi.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4NCn9iuPDbooMYjA9ut4WXe5Anzl+BUYuxBd+Pi7hapgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ com.citiustech ---
+[INFO] Installing /var/lib/jenkins/workspace/project1/target/com.bmi.war to /var/lib/jenkins/.m2/repository/citiustech/com.citiustech/0.0.1-SNAPSHOT/com.citiustech-0.0.1-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/project1/pom.xml to /var/lib/jenkins/.m2/repository/citiustech/com.citiustech/0.0.1-SNAPSHOT/com.citiustech-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.373s
+[INFO] Finished at: Fri Apr 13 13:47:06 UTC 2018
+[INFO] Final Memory: 7M/19M
+[INFO] ------------------------------------------------------------------------
+[project1] $ /bin/sh -xe /tmp/jenkins2443920843750546127.sh
++ echo 'printing environment variable'
+printing environment variable
++ echo /var/lib/jenkins
+/var/lib/jenkins
++ echo
+
++ echo 'creating dockerfile'
+creating dockerfile
++ touch Dockerfile
++ echo 'FROM tomcat
+copy /target/com.bmi.war /usr/local/tomcat/webapps/
+EXPOSE 8080
+CMD chmod +x /usr/local/tomcat/bin/catalina
+CMD [catalina.sh,run]'
++ sudo docker build -t image1 .
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

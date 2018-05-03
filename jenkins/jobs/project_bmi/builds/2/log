@@ -1,0 +1,17 @@
+Started by user [8mha:////4DV1sTA+WhgIv0UkDxfwVtEuhHytMhuT5dermWrHK8nEAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZ+/dLi1CL9xIyS1OKMxNxEADhuzyDEAAAA[0mahtesham
+Building in workspace /var/lib/jenkins/workspace/project_bmi
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ctproject4/bmi3.git # timeout=10
+Fetching upstream changes from https://github.com/ctproject4/bmi3.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ctproject4/bmi3.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f72ee5d5473f1cdd5a8b2d1c785ce8539b6199a8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f72ee5d5473f1cdd5a8b2d1c785ce8539b6199a8
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk f72ee5d5473f1cdd5a8b2d1c785ce8539b6199a8 # timeout=10
+Finished: SUCCESS
